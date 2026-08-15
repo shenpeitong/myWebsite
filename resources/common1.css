@@ -1,0 +1,163 @@
+
+
+/*my*/
+
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.page1 {
+    background-color: rgba(247, 248, 250, 1);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.head-btn-close{
+
+    color: #4285f4;
+    border-color: #4285f4;
+    display: inline-block;
+    position: absolute;
+    right: 32px;
+    background-color: #fff;
+    height: 32px;
+    top: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    line-height: 32px;
+
+    font-size: 14px;
+    text-decoration: none;
+
+
+
+
+}
+.head-btn-close:hover{
+    color: #0052d9;
+    border-color: #0052d9;
+    text-decoration: none;
+}
+
+
+.box_1 {
+    background-color: rgba(66, 133, 244, 1);
+    width: 100%;
+    height: 56px;
+}
+
+
+.section_1 {
+    background-image: url(./img/8428631fc1dc4c18b01195bda94ac254_mergeImage.png);
+    width: 39px;
+    height: 46px;
+    margin: 6px 0 0 24px;
+}
+
+
+.text_1 {
+    width: 45%;
+    height: 26px;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 26px;
+    margin: 15px 0 0 2px;
+}
+
+.box_2 {
+    width: 100%;
+    height: 60px;
+    background: url(./img/SketchPngcff29b822d27cbef340815dbc53b277e64a1ba0fd5921b637c055bbec256fec4.png)
+    100% no-repeat;
+    background-size: 100% 100%;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail_2 {
+    width: 18px;
+    height: 14px;
+    margin: 23px 0 0 131px;
+}
+
+.text_3 {
+    width: 36px;
+    height: 28px;
+    overflow-wrap: break-word;
+    color: rgba(204, 204, 204, 1);
+    font-size: 18px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 28px;
+    margin: 16px 0 0 7px;
+}
+
+.text_4 {
+    height: 22px;
+    overflow-wrap: break-word;
+    color: rgba(24, 24, 25, 1);
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: 19px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.cxbtn{
+    background-color: #4285F4;
+    display: inline-block;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px;
+
+
+}
+.cxbtn:hover{
+    background-color: #1d5ac9;
+    color: #fff;
+
+}
+
+.contain{
+    width:1184px;
+    background: white;
+    padding: 16px 16px;
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 16px;
+}
+.new_body{
+    background: rgba(247, 248, 250, 1);
+}
+.new_body .new_con{
+    width:1184px;
+    background: white;
+    margin-top: 16px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}

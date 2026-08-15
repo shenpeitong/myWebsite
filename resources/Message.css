@@ -1,0 +1,168 @@
+﻿/*container*/
+#msg-window {
+	background: #fff;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: '微软雅黑'
+}
+
+/*header*/
+.msg-tl {
+	padding-left: 3px;
+	background: #CFD7EC url(images/title_bg_left.gif) no-repeat 0 0
+}
+
+.msg-tr {
+	padding-right: 3px;
+	background: #CFD7EC url(images/title_bg_right.gif) no-repeat right 0;
+}
+
+.msg-tc {
+	background: #CFD7EC url(images/title_bg_center.gif) repeat-x 0 0;
+	overflow: hidden;
+	height: 25px;
+	line-height: 25px;
+}
+
+.msg-ttc {
+	height: 3px
+}
+
+.msg-header-text {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 5px;
+	float: left
+}
+
+.msg-header-tools {
+	float: right;
+	margin-top: 5px
+}
+
+.msg-header-tools strong {
+	display: none
+}
+
+/*body*/
+.msg-ml {
+	background: url(images/win_l.gif) repeat-y 0 0;
+	padding-left: 3px;
+}
+
+.msg-mr {
+	background: url(images/win_r.gif) repeat-y right 0;
+	padding-right: 3px;
+}
+
+.msg-mc {
+	background: url(images/content_bg.gif) repeat-x 0 0;
+	padding: 0
+}
+
+.msg-body {
+	overflow: auto;
+	padding: 0;
+	font-size: 16px;
+}
+
+/*button*/
+.msg-btn {
+	text-align: right;
+	padding-right: 5px;
+}
+
+/*footer*/
+.msg-bl {
+	background: url(images/win_lb.gif) no-repeat 0 bottom;
+	padding-left: 3px
+}
+
+.msg-br {
+	background: url(images/win_rb.gif) no-repeat right bottom;
+	padding-right: 3px
+}
+
+.msg-bc {
+	background: url(images/win_b.gif) repeat-x 0 bottom;
+	height: 3px;
+	font-size: 3px
+}
+
+/*icon*/
+.Message_alert {
+	padding-left: 16px;
+	padding-right :13px;
+	/* background: url(images/info.gif) no-repeat 20px 10% */
+}
+
+.Message_succeed {
+	padding-left: 16px;
+	padding-right :13px;
+	/*background: url(images/right.gif) no-repeat 20px 10%*/
+}
+
+.Message_error {
+	padding-left: 16px;
+	padding-right :13px;
+	/*background: url(images/err.gif) no-repeat 20px 10%*/
+}
+
+.Message_confirm {
+	padding-left: 16px;
+	padding-right :13px;
+	/*background: url(images/ask.gif) no-repeat 20px 10%*/
+}
+
+.Message_alert .msg-content,.Message_succeed .msg-content,.Message_error .msg-content,.Message_confirm .msg-content
+	{
+	padding: 40px 0 0
+}
+/*图标公共定义*/
+.msg-header-tools div {
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 0 1px;
+	background: url(images/ico.gif) no-repeat 0 0;
+}
+
+.Message_close {
+	background-position: -16px 0 !important;
+}
+
+.Message_max {
+	background-position: 0 -16px !important;
+}
+
+.Message_min {
+	background-position: 0 0 !important;
+}
+
+.Message_normal {
+	background-position: -16px -16px !important;
+}
+
+/*取消确认按钮样式*/
+input.btnStyle {
+	background: url(images/btn_bg.gif) no-repeat;
+	width: 80px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 12px;
+	color: #183C94;
+	border: 0;
+	margin: 10px 0
+}
+input.btnStyle1 {
+	background: url(images/btn_bg1.png) no-repeat;
+	width: 130px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 12px;
+	color: #183C94;
+	border: 0;
+	margin: 10px 0
+}
