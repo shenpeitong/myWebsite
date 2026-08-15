@@ -352,10 +352,14 @@ $(function(){
         margin: 0 auto 10px auto;
     }
     .text_1 {
-        font-size: 16px !important;
-        text-align: center;
-        width: 100%;
-        margin-top: 5px;
+        font-size: 14px !important;
+        text-align: left;
+        width: auto;
+        flex: 1;
+        margin-top: 0;
+        margin-left: 10px;
+        white-space: nowrap;
+        overflow: visible;
     }
     .head-btn-close {
         position: absolute;
@@ -398,7 +402,12 @@ $(function(){
         height: 50px !important;
     }
     .text_1 {
-        font-size: 14px !important;
+        font-size: 12px !important;
+        display: inline-block;
+        max-width: calc(100% - 80px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     .head-btn-close {
         font-size: 12px !important;
